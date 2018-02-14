@@ -40,6 +40,12 @@ h4{
   float: left;
   margin: -15% 0 0 25%;
 }
+
+.blackQuill{
+  height:145px;
+  width: 41%;
+  margin-left: 68%;
+}
 ul{
   -webkit-column-count: 2;
 
