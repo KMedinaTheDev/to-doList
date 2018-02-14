@@ -1,0 +1,35 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     font-weight:bold;
+}
+body{
+  background: black;
+}
+form,.btnContainer{
+  height:100px;
+  width:30%;
+  background: navy;
+}
+h1{
+  color:gold;
+  font-size: 3em;
+}
+h4{
+  color:green;
+}
+
+.completedItem{
+  text-decoration: line-through;
+  color: red;
+}
+
+
+
+.listContainer{
+  height:200px;
+  width:30%;
+  background: white;
+  border: 5px dashed silver;
+}

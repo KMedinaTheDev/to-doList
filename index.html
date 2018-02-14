@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To Do List</title>
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <form class="submitItem" action="index.html" method="post">
+      <input class="toDoItem" type="text" name="" value="" placeholder="To Do Item Goes Here" autofocus>
+      <input class="addBtn" type="button" name="button" value="Add To List">
+
+    </form>
+    <section class="listContainer">
+      <ul class="toDo"></ul>
+    </section>
+
+    <h4 class="toDoCount"></h4>
+
+    <section class="btnContainer">
+
+      <button id="clearAllBtn" type="button" name="button">Clear List Items</button>
+      <button class="clearCompletedBtn" type="button" name="button">Clear Completed Task</button>
+    </section>
+
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
