@@ -48,7 +48,13 @@ function clearCompleted(){
 //how many tasks are left to do
 function toDoCount(){
   var count=$("li").length;
-  $("h4").text("You have: "+count+" to Complete!");
+  $("h4").text("You have: "+count+" thing to Do!");
+  if (count > 1) {
+      $("h4").text("You have: "+count+" things to Do!");
+  }
+  else if (count <= 0) {
+      $("h4").text("You've Completed All Your Tasks!");
+  }
 }
 
   function clearInput(){ //clears user's input
